@@ -1,23 +1,23 @@
 public class Practical9First {
 
-      public static long getFactorialIterative( long  n ){
+      public static long getFactorialRecursion( long  n ){
 
 
         if( n == 0 )return 1 ; 
 
         else if( n == 1 )return 1 ; 
 
-        return n * getFactorialIterative ( n - 1 ); 
+        return n * getFactorialRecursion( n - 1 ); 
 
 
     }
 
-    public static  long getFactorialRecursion( long n ){
+    public static  long getFactorialIterative( long n ){
 
 
         int num = 1 ; 
 
-        for( int i = 0 ; i <= n ; i++ ){
+        for( int i = 1 ; i <= n ; i++ ){
 
             num = num * i ; 
 
@@ -74,7 +74,7 @@ public class Practical9First {
         }
 
         double avgLoopTime = loopTime/(double) size ; 
-        double avgRecursionTime = recursionTime ; 
+        double avgRecursionTime = recursionTime/(double) size  ; 
 
         System.out.println( "Time taken by Looping " + avgLoopTime) ; 
         System.out.println( "Time taken by Recursion " + avgRecursionTime) ; 
