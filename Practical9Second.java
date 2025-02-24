@@ -14,7 +14,7 @@ public class Practical9Second {
             String [] s = new String[size];
 
     
-            for(Integer i=0; i<size; i++){
+            for(int i=0; i<size; i++){
 
                 Integer temp = (int) (System.nanoTime() % 50); 
                 
@@ -27,7 +27,7 @@ public class Practical9Second {
 
             long StringBufferTime = 0;
             
-            String string1 = "govindaj" ; 
+            String string1 = "govindraj" ; 
             StringBuffer string2 = new StringBuffer("govindraj") ; 
             StringBuilder string3 = new StringBuilder ("govindraj") ; 
     
