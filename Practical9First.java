@@ -1,6 +1,6 @@
 public class Practical9First {
 
-     static long getFactorialIterative( long  n ){
+      public static long getFactorialIterative( long  n ){
 
 
         if( n == 0 )return 1 ; 
@@ -12,7 +12,7 @@ public class Practical9First {
 
     }
 
-   static  long getFactorialRecursion( long n ){
+    public static  long getFactorialRecursion( long n ){
 
 
         int num = 1 ; 
