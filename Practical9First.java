@@ -15,7 +15,7 @@ public class Practical9First {
     public static  long getFactorialIterative( long n ){
 
 
-        int num = 1 ; 
+        long num = 1 ; 
 
         for( int i = 1 ; i <= n ; i++ ){
 
